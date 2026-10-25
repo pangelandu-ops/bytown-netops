@@ -1,0 +1,5 @@
+Q1: 19d00543 
+Q2: 2 
+Q3: git pull — This downloads and integrates the remote changes into my local repository before I push again.
+Q4: no, Adding secrets.env to .gitignore does not remove a file that was already committed or erase it from Git history. If a real password was exposed, it should be changed immediately.
+Q5: git branch -d old-fix ; git push origin --delete old-fix
